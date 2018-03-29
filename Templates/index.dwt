@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>A. Liebl &amp; A. Schwind - Praxisgemeinschaft</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen" />
+<script type="text/javascript" src="../js/jquery.core.js"></script>
+<script type="text/javascript" src="../js/jquery.superfish.js"></script>
+<script type="text/javascript" src="../js/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="../js/jquery.easing.js"></script>
+<script type="text/javascript" src="../js/jquery.scripts.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link rel="stylesheet" href="style/style.css" />
+<script type="text/javascript">
+$(document).ready(function() {
+    $("a[rel=resim]").fancybox({
+        'transitionIn'	: 'none',
+        'transitionOut'	: 'none',
+        'titlePosition' : 'over',
+        'titleFormat'	: function(title, currentArray, currentIndex, currentOpts) {
+            return '<span id="fancybox-title-over">Bild: ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+        }
+    });
+});
+</script>
+<style type="text/css">
+body {
+	background-image: url(../images/bg.gif);
+}
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42688821-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="wrap">
+    <div class="top_corner"></div>
+    <div id="main_container">
+    
+        <div id="header">
+            <div id="logo"><a href="../index.html"><img src="../images/logo.gif" alt="" width="212" height="75" border="0" title="" /></a></div>
+            
+            <a href="../make-a-donation.html" class="make_donation"></a>
+            
+            <div id="menu">
+                <ul>                                                                                            
+                    <li><a class="current" href="../index.html" title="">Startseite</a></li>
+                    <li><a href="#" title="">Ergotherapie</a></li>
+                    <li><a href="#" title="">Logopädie</a></li>
+                    <li><a href="#" title="">Unsere Praxis</a></li>
+                    <li><a href="#" title="">Impressum</a></li>
+                    <li><a href="#" title="">Kontakt</a></li>
+                </ul>
+            </div>
+            
+        
+        </div>
+        
+        <!-- TemplateBeginEditable name="head" -->
+
+        <div class="middle_banner">               
+           
+<div class="featured_slider">
+      	<!-- begin: sliding featured banner -->
+         <div id="featured_border" class="jcarousel-container">
+            <div id="featured_wrapper" class="jcarousel-clip">
+               <ul id="featured_images" class="jcarousel-list">
+                  <li><img src="../images/slider_photo.jpg" width="965" height="280" alt="" /></li>
+                  <li><img src="../images/slider_photo2.jpg" width="965" height="280" alt="" /></li>
+                  <li><img src="../images/slider_photo3.jpg" width="965" height="280" alt="" /></li>
+                  <li><img src="../images/slider_photo2.jpg" width="965" height="280" alt="" /></li>
+               </ul>
+            </div>
+            <div id="featured_positioner_desc" class="jcarousel-container">
+               <div id="featured_wrapper_desc" class="jcarousel-clip">
+                  
+               </div>
+
+            </div>
+            <ul id="featured_buttons" class="clear_fix">
+               <li>1</li>
+               <li>2</li>
+               <li>3</li>
+               <li>4</li>
+            </ul>
+         </div>
+         <!-- end: sliding featured banner -->
+</div>
+          
+        
+        
+        </div><!---------------------------------end of middle banner-------------------------------->
+        
+        
+        <div class="center_content">
+        
+        
+         
+        <div class="home_section_left">
+            <img src="../images/icon1.gif" alt="" title="" class="home_section_icon" border="0">
+                            
+                <h2 class="home_title">Unsere Leistungen</h2>
+              
+    
+                <div class="home_section_thumb">
+                <img src="../images/home_section_thumb1.jpg" alt="" title="" border="0">
+                </div>
+                  <p> <span>Ergotherapie</span><br>
+                Offenkundige Probleme haben meist verborgene Ursachen.
+                <br> <br>
+              <span>Logopädie</span><br>
+                Logopädie hilft Kindern und Erwachsenen mit Stimm-, Sprech-, Sprach- und Schluckstörungen.
+                </p>
+               
+        <div class="clear"></div>
+        </div>
+        
+        
+        <div class="home_section_left">
+            <img src="../images/icon2.gif" alt="" title="" class="home_section_icon" border="0">
+                            
+                <h2 class="home_title">Wer sind wir?</h2>
+                
+    
+                <div class="home_section_thumb">
+                <img src="../images/home_section_thumb2.jpg" alt="" title="" border="0">
+                </div>
+                <p><span>A. LIEBL</span><br>
+                Berufsbezeichnung<br/>
+                <br> <br>
+                <span>A. Schwind</span><br>
+                Berufsbezeichnung<br/>
+          </p>
+                
+        <div class="clear"></div>
+        </div>
+        
+        <div class="home_section_left">
+            <img src="../images/icon3.gif" alt="" title="" class="home_section_icon" border="0">
+                            
+                <h2 class="home_title">Kontakt</h2>
+                
+                <div class="home_section_thumb">
+                <img src="../images/home_section_thumb3.jpg" alt="" title="" border="0">
+                </div>
+                <p><span>Kommen Sie uns einfach!</span><br>
+               Adresse: Berchinger Str. 17 1/2<br />
+D-91171 Greding  
+                <br> <br>
+                <span>Rufen Sie mich an!</span><br>
+                Tel: 08463/602501<br />
+				Fax: 08463/602502
+                
+                </p>
+               
+        <div class="clear"></div>
+        </div>
+        
+            
+            <div class="left_block_wide">
+                <h2>Unsere Praxis</h2>
+                
+                <a href="#"><img src="../images/p1.jpg" alt="" title="" border="0" class="projects" /></a>
+                <a href="#"><img src="../images/p2.jpg" alt="" title="" border="0" class="projects" /></a>
+                <a href="#"><img src="../images/p3.jpg" alt="" title="" border="0" class="projects" /></a>
+            
+            
+            </div>
+            
+            <div class="right_block">
+            	<h2>Von Mensch zu Mensch</h2>
+                <p>
+                Lernen Sie uns kennen. Vereinbaren Sie telefonisch einen Termin. Können Sie aufgrund Ihrer Erkrankung nicht zu uns in die Praxis kommen, verordnet ihr Arzt bei bedarf auch Hausbesuche.<br />
+                Wir freuen uns auf Sie.
+                </p>
+                
+            
+            </div>
+        
+        
+        
+   
+        
+        <div class="clear"></div>
+        </div>
+        <!-- TemplateEndEditable -->
+        <div class="footer">
+        	<div class="copyright"> <a href="http://csstemplatesmarket.com/" target="_blank">designed by TOPAL-IT</a></div>
+        
+        	<div class="footer_links">
+                <a class="current" href="../index.html" title="">Starseite</a>
+                <a href="#" title="">Ergotherapie</a>
+                <a href="#" title="">Logopädie</a>
+                <a href="#" title="">Unsere Praxis</a>
+                <a href="#" title="">Impressum</a>
+                <a href="../contact.html" title="">Kontakt</a>            
+            </div>
+        </div>
+      
+      
+    
+    </div>
+</div>
+</body>
+</html>

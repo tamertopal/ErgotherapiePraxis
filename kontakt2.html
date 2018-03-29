@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="style2.css" media="screen" />
+</head>
+
+<body>
+<form action='/liebl/gonder2.php' method='post'>             
+                <div class="form">
+                    <div class="form_row">
+                    <label>Name:</label>
+                    <input type="text" name='name' id='name' class="main_input" />
+                    </div>
+                    
+                    <div class="form_row">
+                    <label>E-mail:</label>
+                    <input type="text" name='email' id='email' class="main_input" />
+                    </div> 
+                    
+                    <div class="form_row">
+                    <label>Betreff:</label>
+                    <input type="text" name='subject' id='subject' class="main_input" />
+                    </div> 
+                    
+                                         
+                  <div class="form_row">
+                    <label>Nachricht:</label>
+                    <textarea class="main_textarea" name='message' id='message'></textarea>
+                    </div> 
+                    <p id='mail_success' class='success'>Danke für Ihre Nachricht.</p>
+					<p id='mail_fail' class='error'>Entschuldigung, Server Error!</p>
+                        
+                    <div class="form_row">
+                     <input type="submit" name="" class="submit" value="Senden" />
+                    </div>
+                
+                </div>
+                </form>
+</body>
+</html>
